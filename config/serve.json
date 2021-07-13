@@ -4,7 +4,7 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "pageUrl": "https://bikeabilityit.sharepoint.com/sites/dev/SitePages/Home.aspx",
       "customActions": {
         "00e92815-883c-4a30-8195-a1eb2de90695": {
           "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
@@ -16,7 +16,7 @@
       }
     },
     "internalSharing": {
-      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "pageUrl": "https://bikeabilityit.sharepoint.com/sites/dev/SitePages/Home.aspx",
       "customActions": {
         "00e92815-883c-4a30-8195-a1eb2de90695": {
           "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
