@@ -4,7 +4,7 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://bikeabilityit.sharepoint.com/sites/dev/SitePages/Home.aspx",
+      "pageUrl": "https://bikeabilityit.sharepoint.com/sites/dev/Shared Documents/Forms/AllItems.aspx",
       "customActions": {
         "00e92815-883c-4a30-8195-a1eb2de90695": {
           "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
