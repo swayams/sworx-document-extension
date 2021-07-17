@@ -29,6 +29,7 @@ export default class InternalSharingCommandSet extends BaseListViewCommandSet<II
   public onInit(): Promise<void> {
     Log.info(LOG_SOURCE, 'Initialized InternalSharingCommandSet');
     return Promise.resolve();
+    console.log('in init')
   }
 
   @override
@@ -36,7 +37,7 @@ export default class InternalSharingCommandSet extends BaseListViewCommandSet<II
     const compareOneCommand: Command = this.tryGetCommand('COMMAND_1');
     if (compareOneCommand) {
       // This command should be hidden unless exactly one row is selected.
-      compareOneCommand.visible = event.selectedRows.length === 1;
+      compareOneCommand.visible = true;// event.selectedRows.length === 1;
     }
   }
 
