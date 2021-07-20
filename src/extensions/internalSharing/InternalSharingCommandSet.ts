@@ -7,6 +7,7 @@ import {
   IListViewCommandSetExecuteEventParameters
 } from '@microsoft/sp-listview-extensibility';
 import { Dialog } from '@microsoft/sp-dialog';
+import CustomDialog from './CustomModalDialog';
 
 import * as strings from 'InternalSharingCommandSetStrings';
 
@@ -37,7 +38,7 @@ export default class InternalSharingCommandSet extends BaseListViewCommandSet<II
     const compareOneCommand: Command = this.tryGetCommand('COMMAND_1');
     if (compareOneCommand) {
       // This command should be hidden unless exactly one row is selected.
-      compareOneCommand.visible = true;// event.selectedRows.length === 1;
+      compareOneCommand.visible = event.selectedRows.length === 1;
     }
   }
 
